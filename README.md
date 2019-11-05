@@ -10,7 +10,7 @@ jQuery plugin for Smart Streets API
 			When implementing the Smarty Stree Plugin two script tags must be added.
     </p>
     <pre>&lt;script src="https://d79i1fxsrar4t.cloudfront.net/sdk/1.4.0/smartystreets-sdk-1.4.0.min.js"&gt;&lt;/script&gt;
-         &lt;script name="SmartyStreets-jQuery" src="/Scripts/SmartyStreets-jQuery.js?ver=1" websiteKey='<WebsiteKey>'&gt;&lt;/script&gt;</pre>
+         &lt;script name="SmartyStreets-jQuery" src="/Scripts/SmartyStreets-jQuery.js?ver=1" websiteKey='&lt;WebsiteKey&gt;'&gt;&lt;/script&gt;</pre>
     <p>The smartystreets-sdk script must be placed in the header and the SmartyStreets-jQuery tag must be placed just above the closing body tag with the SmartyStreets WebsiteKey passed as a parameter.</p>
     <p>The plugin has been design to be initiated through a jQuery chain call.</p>
     <pre>$('field').Smarty();</pre>
